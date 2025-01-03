@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+header form {
+    display: flex;
+    justify-content: center;
+}
+
+header input[type="text"] {
+    padding: 5px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+header input[type="submit"] {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+header input[type="submit"]:hover {
+    background-color: #e9e6e6;
+    color: #333;
+}
+
+main {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr, th, td {
+    border: 1px solid #333;
+}
+
+table th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #333;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #e9e6e6;
+}
+
+table tr td:last-child a {
+    padding: 5px 10px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+table tr td:last-child a:hover {
+    background-color: #bbb;
+    color: #fff;
+}
+footer {
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #333;
+}
